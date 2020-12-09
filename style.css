@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+ font-family: 'Roboto', sans-serif;
+}
+/* ====================== NAV MENU =================================== */
+.nav_menu {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ padding: 15px;
+ margin-left: 5%;
+}
+
+.nav_logo img {
+ width: 160px;
+ margin: 0 15px;
+}
+
+.dropbtn {
+ background-color: #fff;
+ color: #a496a1;
+ padding: 16px;
+ font-size: 0.9rem;
+ font-weight: 600;
+ border: none;
+ transition: all 0.3s ease;
+
+}
+
+.dropbtn:hover {
+ color: #000;
+}
+
+.dropdown {
+ position: relative;
+ display: inline-block;
+}
+
+.dropdown-content {
+ display: none;
+ position: absolute;
+ font-size: 0.9rem;
+ font-weight: 600;
+ background-color: #f1f1f1;
+ min-width: 200px;
+ border-radius: 7px;
+ box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+ z-index: 1;
+}
+
+.dropdown-content a {
+ color: black;
+ padding: 12px 16px;
+ text-decoration: none;
+ display: block;
+}
+
+.dropdown-content a:hover {
+ background-color: #fff;
+}
+
+.dropdown:hover .dropdown-content {
+ display: block;
+}
+
+.dropdown:hover .dropbtn {
+ background-color: #fff;
+}
+
+.pricing_div {
+ margin: 0 10px;
+
+}
+
+.pricing_div button {
+ border: none;
+ background: none;
+ color: #d62c77;
+ font-size: 0.9rem;
+ font-weight: 600;
+}
+
+.my_account {
+ position: absolute;
+ right: 10%;
+ font-size: 0.9rem;
+}
+.account {
+ background: none;
+ border: none;
+ font-weight: 600;
+ color: #a496a1;
+ margin: 0 7px;
+}
+
+.create_account {
+ background: #05b3e6;
+ border: none;
+ padding: 10px 30px;
+ border-radius: 10px;
+ color: #fff;
+ font-weight: 600;
+ transition: all 0.3s ease;
+}
+
+.create_account:hover {
+ background: #d62c77;
+}
+
+/* ==================BANNER======================== */
+
+.banner { 
+ background: url(./img/bg-bubble.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ margin-top: 25px;
+}
+
+.banner h1 {
+ font-size: 2.8rem;
+ font-weight: 600;
+ text-align: center;
+ padding: 30px 0; 
+ margin: 15px 0;
+}
+
+.banner p {
+ font-size: 0.9 rem;
+ color: #a496a1;
+ font-weight: 600;
+ text-align: center;
+ padding: 20px 0;
+}
+
+.banner_btn {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ position: relative;
+}
+
+.banner_btn button {
+ border: none;
+ background: #05b3e6;
+ padding: 12px 40px;
+ border-radius: 10px;
+ margin: 0 15px;
+ color: #fff;
+ font-weight: 600;
+ transition: all 0.3s ease;
+}
+
+.banner_btn button:hover {
+ background: #d62c77;
+}
+
+.banner_btn .btn-wp {
+ 
+}
+
+.banner_btn .btn_cd {
+ background: #000;
+}
+
+.banner_btn .hosted_img_1 {
+ position: absolute;
+ top: 100%;
+ right: 32%;
+}
+.banner_btn .hosted_img_2 {
+ position: absolute;
+ top: 100%;
+ left: 32%;
+}
+.banner .banner_vid {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding-top: 100px;
+  z-index: 10;
+  box-shadow: 0px 1px #fff,
+              0px 2px #fff,
+              0px 3px #fff,
+              0px 4px #fff,
+              0px 5px #fff,
+              1px 0px #fff,
+              2px 1px #fff,
+              4px 2px #fff,
+              5px 3px #fff;
+ }
+
+.banner video{
+ max-width: 1000px;
+ border-radius: 7px;
+}
+
+/* ============Banner Two====================== */
+
+
+.banner_two_text {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin-top: 25px;
+ padding-top: 25px;
+}
+
+.banner_two_text h3{
+ font-size: 2.4rem;
+ font-weight: 400;
+ padding: 15px 0;
+}
+.banner_two_text p{
+ text-align: center;
+ font-size: 0.9rem;
+ font-weight: 600;
+ color: #a496a1;
+ padding: 15px 0;
+}
+
+.banner_two_text p span {
+ color: #000;
+}
+.banner_deck {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ width: 250px;
+ height: 200px;
+ margin: 0 10px;
+ box-shadow: 5px 2.8px 2.2px rgba(0, 0, 0, 0.034),
+ 0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+ 0 12.5px 10px rgba(0, 0, 0, 0.06),
+ 0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+ 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+ 0 100px 80px rgba(0, 0, 0, 0.12)
+
+}
+.banner_deck h6 {
+ font-size: 1.4rem;
+}
+
+.banner_deck p {
+ font-size: 0.9rem;
+ color: #a496a1;
+ font-weight: 600;
+}
+
+/* =================Banner Three=========================== */
+
+.banner_three {
+margin-top: 7%;
+
+}
+
+.banner_three_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.para_one {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #05b3e6;
+  margin: 15px 0;
+  padding: 15px 0;
+
+}
+
+.banner_three_text h6 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 15px 0;
+  margin-bottom: 15px;
+}
+
+.para_two {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #a496a1;
+  padding: 15px 0;
+}
+
+.para_two span {
+  color: #000;
+}
+
+.layout {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 15px 0;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.global_btn {
+
+}
+
+.global_btn button {
+  background: transparent;
+  border: solid 2px #000;
+  border-radius: 7px;
+  padding: 10px 25px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.global_btn button:hover {
+  background: #000;
+  color: #fff;
+}
+
+/* =================Banner Four======================= */
+
+.banner_four_bg {
+  background: url(./img/brizy-section-2-bg-6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.banner_four_bg h4 {
+  text-align: center;
+  padding: 7% 0;
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+
+.bg_four_deck {
+
+  border-radius: 10px;
+  box-shadow: 11px -3px 10px #888,
+              9px -2px 10px #888,
+              7px -1px 10px #888,
+              11px -3px 10px #888,
+              11px -3px 10px #888,
+              11px -3px 10px #888,
+              11px -3px 10px #888;
+}
+
+.bg_four_deck img {
+  border-radius: 10px;
+}
+
+/* ===============Banner Five======================== */
+
+.banner_five_bg {
+  background: url(./img/brizy-section-2-bg-6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10% 0;
+}
+
+.banner_five_sm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* ================Testimonial====================== */
+
+/* =================================================== */
+
+/* ==================Learn More=========================*/
+
+.learn_more h6 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #a496a1;
+  margin: 5% 0;
+  text-align: center;
+}
+
+.learn_more .banner_deck {
+  width: 200px;
+  height: 180px;
+  align-items: center;
+  background: linear-gradient(45deg, #b26ce6, #724e9b);
+  border-radius: 7px;
+  font-size: 1.5rem;
+}
+
+.learn_more .banner_deck p {
+  font-size: 1.4rem;
+  margin: 10px;
+  padding: 5px;
+}
+
+
+/* ================footer===================== */
+/* ============footer_one======================= */
+.footer_one {
+  background-image: linear-gradient(to right, #2f2171, #18244e);
+  margin-top: 7%;
+  text-align: center;
+  height: 500px;
+}
+
+.footer_one h3 {
+  font-size: 2.2rem;
+  font-weight: 400;
+  margin: 2% 0;
+  padding: 3% 0;
+  color: #fff;
+}
+
+.item_btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 3% 2%;
+}
+
+.item_1 h6, 
+.item_2 h6 {
+  font-size: 1.6rem;
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+.item_2 sup {
+  font-size: 0.8rem;
+  color: #d62c77;
+}
+
+.item_btn button {
+  padding: 7px 60px;
+  background: transparent;
+  border: solid 1px #fff;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.item_1 button:hover {
+  background: #fff;
+  color: #000;
+}
+
+.item_2 button {
+ background: #fff;
+ color: #d62c77;
+}
+
+.item_2 button:hover {
+  background: #d62c77;
+  border: solid 1px #d62c77;
+  color: #fff;
+}
+
+.line {
+  border-right: solid 2px #a496a1;
+  display: block;
+}
+
+/* =================footer two======================== */
+
+.footer_two {
+  margin: 3% 0;
+}
+
+.footer_list {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.footer_list_item_head {
+  padding-bottom: 15px;
+  color: #05b3e6;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.footer_list_item {
+  color: #a496a1;
+  cursor: pointer;
+}
+
+.footer_list_item:hover {
+  text-decoration: underline;
+}
